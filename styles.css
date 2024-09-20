@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-logo {
+    margin-left: 20px;
+}
+
+.header-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.hero {
+    background-color: #f7f7f7;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    flex-basis: 50%;
+}
+
+.hero-image {
+    flex-basis: 50%;
+}
+
+.hero-image img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-platforms {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.platform {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.platform:hover {
+    background-color: #444;
+}
+
+.features {
+    padding: 2em;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features li {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    flex-basis: 25%;
+}
+
+.features i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.features h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
